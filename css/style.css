@@ -1,0 +1,73 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap');
+body{
+    margin: 0px;
+    padding: 0px;
+    background-color: rgb(255, 255, 255);
+    font-family: "Montserrat", sans-serif;
+}
+
+#title{
+    font-weight: 800;
+    color: blueviolet;
+}
+
+#button{
+    background-color: blueviolet;
+    color: aliceblue;
+    font-size: 20px;
+    border: none;
+    border-radius:6% ;
+    padding: 4px;
+    padding-left: 20px;
+    padding-right:20px;
+    
+}
+
+.imagens{
+    object-fit: cover;
+    height: 600px;
+    width: 600px;
+    border-radius: 2%;
+    align-items: center;
+    justify-content: center;
+    display: flex;
+    box-shadow: 2px 2px 10px 3.5px ;
+    margin: 40px 200px 20px 490px;
+    
+}
+
+#div_marvel{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #ec1c24;
+    width: 100%;
+}
+
+#img_marvel{
+    display: flex;
+    width: 400px;
+}
+
+#div_dc{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #0271f0;
+    width: 100%;
+}
+
+#img_dc{
+    display: flex;
+    height: 200px;
+    
+}
+
+#heroi_naocadastrado{
+    font-weight: 800;
+    font-size: 20px;
+    color: crimson;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
